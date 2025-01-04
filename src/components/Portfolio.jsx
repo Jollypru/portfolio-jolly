@@ -7,8 +7,8 @@ const projects = [
     name: "Visa Navigator",
     description: "A platform that simplifies checking visa requirements, applying for visas online, and tracking applications.",
     technologies: ["React", "Tailwind CSS", "JavaScript", "Node.js"],
-    github: "https://github.com/yourusername/visa-navigator", // Replace with actual GitHub link
-    liveDemo: "https://visanavigator.com", // Replace with live demo link
+    github: "https://github.com/Jollypru/Visa-Navigator", 
+    liveDemo: "https://assignment-10-your-next-visa.surge.sh/", 
   },
   {
     name: "Portfolio Website",
@@ -18,11 +18,11 @@ const projects = [
     liveDemo: "https://yourportfolio.com", // Replace with live demo link
   },
   {
-    name: "Korean Language Learning App",
+    name: "Lingo Bingo",
     description: "An app designed to help users learn Korean, with vocabulary, grammar, and quizzes for efficient learning.",
     technologies: ["React", "Tailwind CSS", "JavaScript"],
-    github: "https://github.com/yourusername/korean-language-app", // Replace with actual GitHub link
-    liveDemo: "https://koreanlanguageapp.com", // Replace with live demo link
+    github: "https://github.com/Jollypru/Lingo-Bingo", 
+    liveDemo: "https://assignment-9-lingo-bingo.surge.sh",
   },
 ];
 

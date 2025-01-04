@@ -37,11 +37,11 @@ const Contact = () => {
                     <div>
                         <h3 className='text-xl uppercase text-white'>Social Links</h3>
                         <p className='flex gap-3'>
-                            <a href=""><CiLinkedin /></a>
-                            <a href=""><FaFacebookF /></a>
-                            <a href=""><FaInstagram /></a>
-                            <a href=""><FaWhatsapp /></a>
-                            <a href=""><FaTelegramPlane /></a>
+                            <a href="https://www.linkedin.com/in/jolly-pru-marma-9b7a211bb" target="_blank" rel="noopener noreferrer"><CiLinkedin /></a>
+                            <a href="https://www.facebook.com/jollypru.marma.7" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+                            <a href="https://www.instagram.com/__j.o.l.l.y__" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                            <a href="https://wa.me/8801585817969" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+                            <a href="https://t.me/jolly_pru" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
                         </p>
                     </div>
                 </div>
