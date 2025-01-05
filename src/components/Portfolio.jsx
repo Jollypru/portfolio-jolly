@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Icons for GitHub and live demo links
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; 
 import SectionTitle from './SectionTitle';
 
 const projects = [
@@ -47,7 +47,7 @@ const Portfolio = () => {
 
             <div className="flex gap-4 mt-6">
               <a href={project.github} target="_blank" rel="noopener noreferrer">
-                <FaGithub className="text-2xl text-gray-700 hover:text-black transition duration-300" />
+                <FaGithub className="text-2xl text-gray-700 hover:text-black  transition duration-300" />
               </a>
               <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
                 <FaExternalLinkAlt className="text-2xl text-gray-700 hover:text-black transition duration-300" />
