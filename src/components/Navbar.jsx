@@ -41,13 +41,13 @@ const Navbar = () => {
                 <h1>Jolly Pru Marma</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="flex gap-5 px-1">
+                <ul className="flex gap-5 px-1 text-sm">
                     {links}
                 </ul>
             </div>
             <div className="navbar-end">
                 <a href={resume} download>
-                    <button className='py-2 px-5 rounded-md bg-gradient-to-r from-blue-500 to-pink-500 text-white flex items-center gap-1'><MdOutlineFileDownload></MdOutlineFileDownload>Download Resume</button>
+                    <button className='py-2 px-5 rounded-md bg-gradient-to-r from-blue-500 to-pink-500 text-white flex items-center gap-1'><MdOutlineFileDownload></MdOutlineFileDownload>Resume</button>
                 </a>
             </div>
         </div>
