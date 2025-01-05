@@ -1,19 +1,27 @@
 
 import { useSpring, animated } from 'react-spring';
 import SectionTitle from './SectionTitle';
+import htmlLogo from '../assets/logos/html-1.svg';
+import cssLogo from '../assets/logos/css.svg';
+import tailwindCSS from '../assets/logos/tailwindcss.svg';
+import jsLogo from '../assets/logos/javascript.svg';
+import reactLogo from '../assets/logos/react.svg';
+import nodeJSLogo from '../assets/logos/nodejs-2.svg';
+import mongoDbLogo from '../assets/logos/mongodb-icon-2.svg';
+
 
 const skills = {
   knowWell : [
-    { name: "HTML", logo: "/public/logos/html-1.svg" },
-    { name: "CSS", logo: "/public/logos/css.svg" },
-    { name: "Tailwind CSS", logo: "/public/logos/tailwindcss.svg" },
-    { name: "JavaScript", logo: "/public/logos/javascript.svg" },
-    { name: "React", logo: "/public/logos/react.svg" },
+    { name: "HTML", logo: htmlLogo },
+    { name: "CSS", logo: cssLogo },
+    { name: "Tailwind CSS", logo: tailwindCSS },
+    { name: "JavaScript", logo: jsLogo },
+    { name: "React", logo: reactLogo },
     
   ],
   someKnowledge: [
-    { name: "Node.js", logo: "/public/logos/nodejs-2.svg" },
-    { name: "MongoDb", logo: "/public/logos/mongodb-icon-2.svg" },
+    { name: "Node.js", logo: nodeJSLogo },
+    { name: "MongoDb", logo: mongoDbLogo },
   ]
 };
 
