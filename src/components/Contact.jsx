@@ -3,6 +3,9 @@ import emailjs from '@emailjs/browser';
 import { FaFacebookF, FaInstagram, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { LuMessageSquareMore } from "react-icons/lu";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 const Contact = () => {
     const form = useRef();
@@ -17,9 +20,11 @@ const Contact = () => {
             .then(
                 (result) => {
                     console.log('SUCCESS!', result);
+                    toast.success('Your message has send successfully!')
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
+                    toast.error('Failed to send message! Please try again.')
                 },
             );
     };
@@ -57,6 +62,7 @@ const Contact = () => {
                     <textarea name="message" className="bg-transparent outline outline-1 mt-1 py-1 rounded-lg w-full" />
                     <input type="submit" value="Send" className='py-1 px-10 rounded-md mt-5 bg-gradient-to-r from-blue-500 to-pink-500 text-white' />
                 </form>
+                <ToastContainer position='top-center'></ToastContainer>
             </div>
         </div>
     );
