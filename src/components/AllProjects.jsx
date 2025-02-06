@@ -37,6 +37,14 @@ const AllProjects = () => {
             github: "https://github.com/Jollypru/Lingo-Bingo",
             liveDemo: "https://assignment-9-lingo-bingo.surge.sh",
         },
+        {
+            name: "Lingo Bingo",
+            description: "An app designed to help users learn Korean, with vocabulary, grammar, and quizzes for efficient learning.",
+            image: 'https://i.ibb.co.com/5GvB5Pc/Screenshot-2025-01-05-141114.png',
+            technologies: ["React", "Tailwind CSS", "JavaScript", "express.js"],
+            github: "https://github.com/Jollypru/Lingo-Bingo",
+            liveDemo: "https://assignment-9-lingo-bingo.surge.sh",
+        },
     ];
     return (
         <div>
