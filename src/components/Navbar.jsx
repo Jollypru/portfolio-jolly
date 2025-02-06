@@ -15,7 +15,7 @@ const Navbar = () => {
         <li><a href='#contact' onClick={()=> handleActive("#contact")} className={active === "#contact" ? "active" : ""}>Contact</a></li>
     </>
     return (
-        <div className="navbar sticky z-10 top-0 bg-black bg-opacity-35 text-white uppercase md:px-14">
+        <div className="navbar sticky z-10 top-0 bg-black bg-opacity-35 text-white uppercase lg:px-14 md:pr-6">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

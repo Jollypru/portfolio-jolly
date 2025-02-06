@@ -10,17 +10,16 @@ const Banner = () => {
             <div>
             <motion.h1
                     className='text-5xl md:text-6xl lg:text-7xl bg-gradient-to-r from-pink-600 via-purple-500 to-purple-800 text-transparent bg-clip-text uppercase'
-                    initial={{ y: -50, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    whileInView={{ y: [-15, 15, 0] }} // Moves up and down
+                    transition={{ duration: 4,  ease: "easeInOut" }}
+                    
                 >
                     Frontend
                 </motion.h1>
                 <motion.h1
                     className='text-5xl md:text-6xl lg:text-7xl bg-gradient-to-r from-pink-600 via-purple-500 to-purple-800 text-transparent bg-clip-text uppercase md:mt-5 pl-20 md:pl-10'
-                    initial={{ y: 50, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+                   whileInView={{ y: [15, -15, 0] }} // Moves down and up (opposite of Frontend)
+                    transition={{ duration: 4,  ease: "easeInOut" }}
                 >
                     Developer
                 </motion.h1>

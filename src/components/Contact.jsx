@@ -30,7 +30,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='flex flex-col md:flex-row gap-8 w-11/12 mx-auto my-16'>
+        <div id='contact' className='flex flex-col md:flex-row gap-8 w-11/12 mx-auto mt-24 mb-20'>
             <div>
                 <h2 className='text-3xl  bg-gradient-to-r from-pink-600 via-purple-500 to-purple-800 text-transparent bg-clip-text uppercase'>Do you have a project to discuss?</h2>
                 <p className='text-2xl text-white uppercase mt-3 mb-7 flex gap-2 items-center'>Get in touch<LuMessageSquareMore></LuMessageSquareMore></p>
