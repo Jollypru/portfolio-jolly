@@ -1,6 +1,6 @@
 import React from 'react';
 import myImage from '../assets/image/026.jpg';
-import resume from '../assets/files/Resume_of_Jolly Pru Marma.pdf';
+import resume from '../assets/files/Frontend_Developer_Resume_of_Jolly Pru Marma.pdf';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { motion } from 'framer-motion';
 

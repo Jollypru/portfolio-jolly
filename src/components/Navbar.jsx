@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import resume from '../assets/files/Resume_of_Jolly Pru Marma.pdf'
+import resume from '../assets/files/Frontend_Developer_Resume_of_Jolly Pru Marma.pdf'
 import { MdOutlineFileDownload } from 'react-icons/md';
 
 const Navbar = () => {
